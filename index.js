@@ -16,16 +16,16 @@ function slider(){
 			break;
 		}
 		case 2:{
-			img_one.style.left = "-100%";
 			img_two.style.left="0";
+			img_one.style.left = "-100%";
 			img_three.style.left="-100%";
 			image +=1;
 			break;
 		}
 		case 3:{
+			img_three.style.left="0";
 			img_one.style.left = "-100%";
 			img_two.style.left="-100%";
-			img_three.style.left="0";
 			image =1;
 			break;
 		}

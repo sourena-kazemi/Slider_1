@@ -2,6 +2,7 @@
 	margin:0;
 	padding:0;
 	background-color: #e9e8e8;
+	transition: all .5s;
 }
 .html{
 	font-size: 100%;
@@ -28,15 +29,6 @@
 	background-size: cover;
 	padding: 2rem;
 	box-sizing: border-box;
-}
-.image_one{
-	left:0;
-}
-.image_two{
-	left:-100%;
-}
-.image_three{
-	left:-100%;
 }
 @media (min-width:2000px){
 	.slider__image{
